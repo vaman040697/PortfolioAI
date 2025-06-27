@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="glitch.css">
+    <link rel="stylesheet" href="ai_glitch.css">
+    <link rel="stylesheet" href="arth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3010d50a28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+  <div class="container">
+    <nav>
+      <p class="glitch" style="font-size:xx-large; margin: 0;">Vaman.</p>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Projects & Possibilities</a></li>
+        <li><a href="#aiAsk">Ask AI</a></li>
+        <li><a href="#demos">Demos</a></li>
+        <li><a href="#portfolio">Visual Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+  <p>Computer Science Student</p>
+
+  <h1>Hi, I'm <span class="glitch" aria-hidden="true">Vaman</span> Malik</h1>
+  <!-- AI avatar and chat bubble together -->
+ 
+</div>
+
+   
+
+<!--------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me3.png" >
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Welcome to my portfolio website! I am a passionate computer science student eager to explore the world of technology and its endless possibilities. With a strong foundation in programming languages like Java and Python, as well as a keen interest in web development and machine learning, I am constantly seeking new challenges to expand my skills and knowledge.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, JS, Swift, Shell, C/C++</li>
+                            <li><span>Tools</span><br>OpenAI API, FastAPI, Ollama, HuggingFace</li>
+                            <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                            <li><span>AI/ML</span><br>Deep Learning, LLM Fine-Tuning, Teachable Machine</li>
+                            <li><span>Quantum</span><br>IBM Qiskit, QRNG, Quantum Circuits</li>
+                            <li><span>Dev</span><br>Xcode, HTML/CSS/JS, GitHub Projects, macOS apps</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Current Education</span><br>GRE Test Taker Currently and Masters Aspirant</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>📚Preparing for Masters in CS. Online Courses.<br>🧠 Built personal AI chatbots, LLMs, GANs & Web Agents<br>🎨 Ran AI art experiments using SDXL, Midjourney & custom prompts<br>🖥️ Created and deployed macOS apps and scripts for personal + family use<br>📜 Fine-tuned LLMs (e.g., Gemma) on educational corpora<br>💡 Custom GPTs: LexGuard AI, Rescue AI, Quantum AI</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Undergrad Student in B.Tech CSE.</li>
+                            <li><span>2016</span><br>12th Pass</li>
+                            <li>🎓 Preparing for Master’s/PhD in CS with focus on GenAI & Quantum Computing</li>
+                            <li>💻 Completed courses: Deep Learning by Andrew Ng (Coursera), Intro to Mathematical Thinking</li>
+                            <li>📚 Platforms: Coursera, Udemy, Masterclass, EdX, freeCodeCamp</li>
+                            <li>🔬 Currently experimenting with LLM training, quantum hashing, and agent workflows</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="ongoing learning">
+                        <ul>
+                            <li>🎓 Preparing for Master’s/PhD in CS with focus on GenAI & Quantum Computing</li>
+                            <li>💻 Completed courses: Deep Learning by Andrew Ng (Coursera), Intro to Mathematical Thinking</li>
+                            <li>📚 Platforms: Coursera, Udemy, Masterclass, EdX, freeCodeCamp</li>
+                            <li>🔬 Currently experimenting with LLM training, quantum hashing, and agent workflows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------services------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Projects & Possibilities</h1>
+            <div class="services-list">
+                <div class="project-card">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/img1.png" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+                    
+                    <i class="fa-solid fa-code" class="card-icon-on-image"></i>
+                    <h2>Web Design</h2>
+                    <p>I create modern, responsive websites that adapt to all screen sizes. From clean layouts to interactive components, every design is optimized for user experience and performance. 
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/img2.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-crop" class="card-icon-on-image"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Focused on crafting intuitive and visually appealing user interfaces. I design with empathy, ensuring seamless user journeys through wireframes, prototypes, and final visuals.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/img2.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>From concept to screens, I design mobile apps that are elegant, efficient, and user-friendly. My process includes UI mockups, interaction flows, and usability testing.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+            </div>
+
+            <div class="services-list">
+                <div class="project-card">
+
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/img2.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-hexagon-nodes"></i>
+                    <h2>Personal AI Agents</h2>
+                    <p>Custom-built local AI companions powered by LLMs with memory and personality. Runs offline using Ollama and shell scripting. Acts like a digital sidekick — smart, witty, and context-aware.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/legalai.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-file-contract"></i>
+                    <h2>Legal Document Analyzer</h2>
+                    <p>An AI-powered legal assistant that scans contracts, PDFs, and terms of service. Flags suspicious clauses, summarizes key points, and explains risks in simple language. Great for both casual readers and professionals.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div class="project-card">
+
+                     <div class="card-image-wrapper">
+                        <img class="card-image" src="images/rescue.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-life-ring"></i>
+                    <h2>Rescue AI</h2>
+                    <h3>Emergency Support Assistant</h3>
+                    <p>Built for crisis situations — from natural disasters to medical emergencies. Combines ChatGPT + APIs (FEMA, NASA, etc.) to deliver real-time guidance, location alerts, and visual aid via AI-generated sketches.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+            </div>
+
+            <div class="services-list">
+                <div class="project-card">
+
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/selfcar.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-car"></i>
+                    <h2>JS-Based Learning Vehicle</h2>
+                    <p>Recreated a lightweight self-driving car using only HTML/CSS/JavaScript from scratch. No TensorFlow — just logic and neural nets coded manually.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div class="project-card">
+
+                     <div class="card-image-wrapper">
+                        <img class="card-image" src="images/virtualworld.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-map"></i>
+                    <h2>HTML/CSS/JS Virtual Environment</h2>
+                    <p>Reverse-engineered a virtual world game UI by analyzing its DOM structure and assets. Rebuilt the layout and interactivity independently for learning purposes.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-spa"></i>
+                    <h2>Personal Therapy Assistant</h2>
+                    <p>A macOS app that acts like an AI therapist. Uses GPT + local session memory to simulate human-like conversations, mood tracking, and daily journaling. Designed with empathy in mind.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+            </div>
+
+             <div class="services-list">
+                <div class="project-card">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/classifier.jpg" alt="Web Design Preview">
+                        <div class="image-gradient"></div>
+                    </div>
+
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Pose & Object Classifiers</h2>
+                    <p>Built using Teachable Machine: fruit classifier, cat/dog detector, and a Yoga pose estimator. Each runs in-browser with a custom UI built in HTML/CSS/JS.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-wave-square"></i>
+                    <h2>Deepfake Audio Simulation</h2>
+                    <p>Used cloned voices of Elon Musk and Anderson Cooper to simulate a podcast debate about AI's future. Scripts and audio generated using deep learning tools.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-hexagon-nodes-bolt"></i>
+                    <h2>Anoch-mini</h2>
+                    <h3>AI Language Model from Scratch</h3>
+                    <p>A transformer-based LLM trained from scratch using custom tokenized datasets and efficient sharding techniques. Features full training loop with memory-optimized .npz loading, multi-GPU support (TPU & DDP), and modular architecture. Built as the foundation of an aligned knowledge-core reasoning system.
+                    </p>
+                    <strong><a href="#">Learn more</a></strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Ask AI Assistant Section-->
+
+<!-- Ask AI Full Section -->
+<div id = "aiAsk" id="aiBubble" class="ai-bubble-section">
+    <!-- Canvas limited to this section -->
+    <canvas id="bgCanvas"></canvas>
+
+  <div class="container">
+    <h1 class="sub-title">Ask My AI ✦</h1>
+    <!-- Background animation layer -->
+    <br>
+    <div class="ai-glass-chat">
+      <div id="chatLog">
+        <!-- Chat messages go here -->
+        <div class="ai-msg">Hello! Ask me anything</div>
+      </div>
+      <div class="ai-input-container">
+         <textarea id="aiInput" placeholder="Ask anything" rows="1"></textarea>
+         <button id="sendBtn" class="send-arrow-btn">
+             <i class="fas fa-arrow-up"></i>
+         </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!------demos------>
+<div id="demos" class="demos-section">
+    <div class="container">
+        <h1 class="sub-title">Demos</h1>
+        <br>
+        <div class="demo-card">
+            <div class="demo-window">
+                <!--<iframe id="demoFrame" src="" frameborder="0">
+                </iframe>-->
+                     <video id="demoVideo" class="card-video" poster="images/virtualworld.jpg" muted playsinline>
+                            <source src="videos/vw.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+
+                     <div class="image-gradient"></div>
+        </div>
+
+        <div class="demo-controls">
+            <button id="demoToggle" class="demo-btn">▶ Play</button>
+        </div>
+        <br>
+        <i class="fa-solid fa-map"></i>
+        
+        <h2 class="demo-title">HTML/CSS/JS Virtual World</h2>
+        <p class="demo-desc">Reverse-engineered a virtual world game UI by analyzing its DOM structure and assets. Rebuilt the layout and interactivity independently for learning purposes.</p>
+  </div>
+    </div>
+
+</div>
+
+
+<!----portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" id="typewriter-text">AI Art Showcase</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.png">
+                <div class="layer">
+                    <h3>The Sunset Study</h3>
+                    <p>As golden light pours in, he escapes into thoughts deeper than the evening sky.</p>
+                    <!--link button--<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 2.png">
+                <div class="layer">
+                    <h3>Majestic Himalayas</h3>
+                    <p>A sparkling stream hums through a blooming valley beneath snow-kissed giants.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                    <h3>City in the hills</h3>
+                    <p>Sunlit streets wind between hills and homes as quiet trams pass by like memories.</p>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="work">
+                <img src="images/ART/ghibli1.png">
+                <div class="layer">
+                    <h3>Whispers of the Grand Canyon</h3>
+                    <p>The enchanting beauty of the Grand Canyon during the golden hour.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/ghibli2.png">
+                <div class="layer">
+                    <h3>Path to the Sleeping Giant</h3>
+                    <p>A winding trail leads through steam and songbirds to a gentle volcano's breath.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/ghibli4.png">
+                <div class="layer">
+                    <h3>The Majestic Pyramids at Sunset</h3>
+                    <p>Great Pyramids of Giza at sunset. The towering pyramids stand tall against a rich, vibrant sky, where warm shades of orange and purple blend together.</p>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="work">
+                <img src="images/ART/wonder1.png">
+                <div class="layer">
+                    <h3>The Sunken Temple of Yonaguni</h3>
+                    <p>Beneath the tranquil waves of ancient Japan lies a forgotten wonder—an immense stone pyramid gently claimed by coral and time. Sea turtles drift above its algae-covered steps as light filters through the ocean’s veil.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/wonder2.png">
+                <div class="layer">
+                    <h3>The Silent Cube Above the City</h3>
+                    <p>A floating black cube looms silently over a twilight skyline, its presence both beautiful and ominous. Rooftop antennas tilt toward it, neon lights flicker, and only a lone rooftop cat seems unfazed.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/wonder3.png">
+                <div class="layer">
+                    <h3>Library of the Dunes</h3>
+                    <p>In the desert, under the glow of strange auroras, silence reigns. Abandoned satellites, fallen domes, and light pillars reveal a place untouched by time—a crossroads of dimensions.</p>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="work">
+                <img src="images/ART/desert.png">
+                <div class="layer">
+                    <h3>Whispers of the Dunes</h3>
+                    <p>Silent monoliths casting secrets across the desert at dusk.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/ice.png">
+                <div class="layer">
+                    <h3> Frozen Titan</h3>
+                    <p>A towering iceberg reigns alone in the arctic stillness.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/lava.png">
+                <div class="layer">
+                    <h3>River of Ember</h3>
+                    <p>Molten lava winds like a fiery serpent beneath a blazing sky.</p>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="work">
+                <img src="images/ART/jellyfish1.png">
+                <div class="layer">
+                    <h3>Jellyfire Skies</h3>
+                    <p>A glowing jellyfish dances at the edge of sea and sky.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/scifi.png">
+                <div class="layer">
+                    <h3>Dust of Distant Moons</h3>
+                    <p>Alien rocks rest quietly under twin moons and cosmic silence.</p>
+                    
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="images/ART/statue.png">
+                <div class="layer">
+                    <h3>Sentinels of the Shore</h3>
+                    <p>Ancient statues gaze toward a storm-painted sky by the sea.</p>
+                    
+                </div>
+            </div>
+            <br>
+            <div class="work">
+                <img src="images/ART/valley.png">
+                <div class="layer">
+                    <h3>Valley of Blooming Light</h3>
+                    <p>Waves of wildflowers guide you toward a glowing dream horizon.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ART/waterfall.png">
+                <div class="layer">
+                    <h3>Whisperfall</h3>
+                    <p>An enchanted waterfall glows like starlight in a quiet forest night.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ART/green.png">
+                <div class="layer">
+                    <h3>The Emerald Veil</h3>
+                    <p>A glowing green river flows under a sky painted with auroras.</p>
+                    
+                </div>
+            </div>
+            
+            <br>
+
+             <div class="work">
+                <img src="images/ART/clock.png">
+                <div class="layer">
+                    <h3>Chrono Spiral</h3>
+                    <p>A clock city drifting through clouds, lost in the folds of time.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ART/tree.png">
+                <div class="layer">
+                    <h3>The Flame Tree Awakens</h3>
+                    <p>A twisted tree erupts into a storm of blazing cloud tendrils.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ART/dune.png">
+                <div class="layer">
+                    <h3>Starlit Dunes</h3>
+                    <p>Whispers of the cosmos drift across moonlit desert sands.</p>
+                    
+                </div>
+            </div>
+            
+            <br>
+             <div class="work">
+                <img src="images/ART/d1.png">
+                <div class="layer">
+                    <h3>Sanctum of the Infinite</h3>
+                    <p>Doctor Strange commands the cosmos through sacred geometric realms.</p>
+                    
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/ART/scarlet.png">
+                <div class="layer">
+                    <h3>Scarlet Dominion</h3>
+                    <p>Wanda watches over a city of dreams—or nightmares—shaped by her will.</p>
+                    
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/ART/panther.png">
+                <div class="layer">
+                    <h3>Wakanda Roars</h3>
+                    <p>The Black Panther stalks through the jungle — swift, silent, sovereign.</p>
+                    
+                </div>
+            </div>
+            <br>
+             <div class="work">
+                <img src="images/ART/batman2.png">
+                <div class="layer">
+                    <h3>The Shadowed Oath</h3>
+                    <p>Silent and solemn, Batman stands like a myth carved in smoke and grit.</p>
+                    
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/ART/ironman.png">
+                <div class="layer">
+                    <h3>Iron Surge</h3>
+                    <p>Blasting forward with arc-powered might, Iron Man cuts through the storm.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ART/batman1.png">
+                <div class="layer">
+                    <h3>Knightfall: Blood Reign</h3>
+                    <p>The Dark Knight emerges from chaos, cloaked in vengeance and crimson fury.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="fa-solid fa-up-right-from-square btn"> See more</a>
+    </div>
+</div>
+
+<!----contact---->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> vaman040697@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8527290903</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Calculus.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vaman. Made with Easy Tutorials and My Knowledge.</p>
+    </div>
+</div>
+
+
+
+
+    <script src="engine.js"></script>
+    <script src="ai_glitch.js"></script>
+    <script src="click.js"></script>
+    <script src="artheading.js" defer></script>
+    <script src="screensaver.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyY6L9BvVgYxnDzerLJSSoZoC5loV5br-KBaoGBNf5qEVduvvGcs4QtLNGopiL21xye/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <script>
+  const video = document.getElementById("demoVideo");
+  const toggleBtn = document.getElementById("demoToggle");
+
+  toggleBtn.addEventListener("click", () => {
+    if (video.paused) {
+      video.play();
+      toggleBtn.textContent = "❚❚ Pause";
+    } else {
+      video.pause();
+      toggleBtn.textContent = "▶ Play";
+    }
+  });
+
+  video.addEventListener("ended", () => {
+    toggleBtn.textContent = "▶ Play";
+  });
+</script>
+
+
+
+</body>
+</html>

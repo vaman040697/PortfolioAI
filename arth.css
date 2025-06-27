@@ -1,0 +1,36 @@
+/* make the element measure its own width */
+/* Heading container with typing effect */
+h1#typewriter-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: visible;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding-right: 2px; /* reduced to just fit the cursor */
+}
+
+/* Blinking cursor */
+h1#typewriter-text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  animation: blink 0.8s step-end infinite;
+  pointer-events: none;
+}
+
+/* Keyframes */
+@keyframes typing {
+  from { width: 0 }
+  to   { width: var(--tw-len) }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+
