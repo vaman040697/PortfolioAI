@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sendBtn = document.getElementById('sendBtn'); // Optional button (only if added in HTML)
 
   const USE_OPENAI = true;
-  const OPENAI_KEY = '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';
+  const OPENAI_KEY = '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';
   const OPENAI_MODEL = 'gpt-4o';
 
   function startThinking() {
