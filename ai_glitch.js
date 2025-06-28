@@ -58,13 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function nicoReply(prompt) {
-    const response = await fetch("https://6787-203-81-240-50.ngrok-free.app/chat", {
+    const response = await fetch("https://2d28-203-81-240-50.ngrok-free.app/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: 'frayt',
+        model: 'nico',
         message: prompt,
         stream: false
       })
