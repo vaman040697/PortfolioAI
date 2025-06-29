@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function nicoReply(prompt) {
-    const response = await fetch("https://fbd0-203-81-240-50.ngrok-free.app/chat", {
+    const response = await fetch("https://4666-2401-4900-8811-b9e5-61e6-a084-a3c1-b3/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
